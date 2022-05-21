@@ -1,0 +1,5 @@
+Simple express.js project with routing and handlebars templating.
+
+To install the required dependencies write npm i in the terminal.
+
+To start the project write npm start in the terminal then visit http://localhost:3000 on your browser.
