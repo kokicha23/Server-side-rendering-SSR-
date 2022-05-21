@@ -1,0 +1,10 @@
+@import url('form.css');
+@import url('nav.css');
+
+body {
+  background: url("https://i.ytimg.com/vi/bmVKaAV_7-A/maxresdefault_live.jpg");
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(129, 122, 122);
+}

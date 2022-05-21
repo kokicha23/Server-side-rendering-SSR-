@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{{title}}}</title>
+    <link rel="stylesheet" href="nav.css">
+     <link rel="stylesheet" href="create.css">
+      <script src="create.js" defer></script>
+</head>
+<body>
+     <nav>
+        <ul id="navbar">
+            <li class="navbar__li">
+                <a href="/">Home</a>
+            </li>
+            <li class="navbar__li">
+                <a href="/about">About us</a>
+            </li>
+            <li class="navbar__li">
+                <a href="/catalog">Catalog</a>
+            </li>
+            <li class="navbar__li">
+                <a href="/create">Create Card</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="wrapper">
+        <form action="create" method="post">
+          <div class="container">
+             <label for="uname"><b>Username</b></label>
+             <input type="text" placeholder="Enter Username" name="uname" required>
+
+             <label for="imageUrl"><b>ImageUrl</b></label>
+             <input type="text" placeholder="Enter ImageUrl" name="imgUrl" required>
+
+             <label for="topic"><b>Topic</b></label>
+             <input type="text" placeholder="Enter Topic" name="topic" required>
+
+             <label for="about"><b>About the Topic</b></label>
+             <input class="about" type="text" placeholder="Write something..." name="about" required>
+             
+             <button type="submit">Create</button>
+          </div>
+        </form>
+    </main>
+</body>
+</html>

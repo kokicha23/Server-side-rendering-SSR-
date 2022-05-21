@@ -1,0 +1,36 @@
+#navbar {
+    background-color: rgb(57, 54, 54);
+    padding: 30px 30px;
+    margin: 0;
+    text-align: center;
+
+}
+
+#navbar>li {
+    background-color: rgb(230, 143, 194);
+    padding: 5px 20px;
+    display: inline-block;
+    list-style: none;
+    border: 2px solid rgb(14, 13, 14);
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
+
+#navbar>li:hover {
+    cursor: pointer;
+    background-color: rgb(102, 228, 138);
+}
+
+#navbar>li>a {
+
+    color: rgb(51, 49, 49);
+    text-decoration: none;
+}
+
+main>h1 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 430px;
+    /* border: 1px solid rgb(248, 239, 239); */
+    border-radius: 10px;
+}

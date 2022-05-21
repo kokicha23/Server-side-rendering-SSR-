@@ -1,0 +1,15 @@
+@import url(form.css);
+
+body{
+    margin: 0;
+    background: url("https://a-static.besthdwallpaper.com/interlinked-lines-on-blurry-glass-wallpaper-1280x720-17330_45.jpg");
+}
+form{
+    background-color: antiquewhite;
+    border: 2px solid whitesmoke;
+    max-width: 500px;    
+}
+
+ #wrapper{
+     margin: 60px 0 40px 390px;
+ }
